@@ -1,7 +1,7 @@
 {
 .appVersion = "983";
 DisplayStrings = (
-"1<<1, 2>>2, 1=>//******//",
+"=>//**//asdp",
 /equal_equal.liga,
 /approxequal,
 /exclam_equal.liga,
@@ -28,8 +28,9 @@ v/less_hyphen.liga,
 "v*/slash_asterisk.liga asd",
 "v//**///slash_asterisk.liga asd",
 "asd//*asdv/asterisk_slash.liga ad",
-/asterisk_slash.liga,
-/slash_asterisk.liga
+"v/asterisk_slash.liga vxcv",
+/slash_asterisk.liga,
+/asterisk_slash.liga
 );
 classes = (
 {
@@ -82772,7 +82773,7 @@ note = equal_equal.liga;
 },
 {
 glyphname = asterisk_slash.liga;
-lastChange = "2017-05-31 17:05:39 +0000";
+lastChange = "2017-05-31 17:16:34 +0000";
 layers = (
 {
 components = (
@@ -82782,7 +82783,7 @@ transform = "{1, 0, 0, 1, 1124, 0}";
 },
 {
 name = asterisk;
-transform = "{1, 0, 0, 1, 135, -300}";
+transform = "{1, 0, 0, 1, 135, -200}";
 }
 );
 layerId = "C8600398-8A20-4DEB-92AF-E95853BEE82A";
@@ -82846,7 +82847,7 @@ width = 2466;
 },
 {
 glyphname = slash_asterisk.liga;
-lastChange = "2017-05-31 17:05:18 +0000";
+lastChange = "2017-05-31 17:16:34 +0000";
 layers = (
 {
 components = (
@@ -82856,7 +82857,7 @@ transform = "{1, 0, 0, 1, 222, 0}";
 },
 {
 name = asterisk;
-transform = "{1, 0, 0, 1, 1042, -300}";
+transform = "{1, 0, 0, 1, 1042, -200}";
 }
 );
 layerId = "C8600398-8A20-4DEB-92AF-E95853BEE82A";
