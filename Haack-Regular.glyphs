@@ -1,7 +1,7 @@
 {
 .appVersion = "983";
 DisplayStrings = (
-"1<<1, 2>>2, 1::1",
+"1<<1, 2>>2, 1=>//******//",
 /equal_equal.liga,
 /approxequal,
 /exclam_equal.liga,
@@ -24,7 +24,10 @@ v/less_hyphen.liga,
 "a/greater_greater.liga b",
 /greater_greater.liga,
 /less_less.liga,
-":/colon_colon.liga"
+":/colon_colon.liga",
+"v*/slash_asterisk.liga asd",
+"v//**///slash_asterisk.liga asd",
+"asd//*asdv/asterisk_slash.liga ad"
 );
 classes = (
 {
@@ -1746,7 +1749,7 @@ name = case;
 },
 {
 automatic = 1;
-code = "sub exclam equal by exclam_equal.liga;\012sub equal equal by equal_equal.liga;\012sub colon colon by colon_colon.liga;\012sub hyphen greater by hyphen_greater.liga;\012sub minus greater by minus_greater.liga;\012sub equal greater by equal_greater.liga;\012sub equal less by equal_less.liga;\012sub greater equal by greater_equal.liga;\012sub greater greater by greater_greater.liga;\012sub less hyphen by less_hyphen.liga;\012sub less less by less_less.liga;\012";
+code = "sub exclam equal by exclam_equal.liga;\012sub equal equal by equal_equal.liga;\012sub asterisk slash by asterisk_slash.liga;\012sub colon colon by colon_colon.liga;\012sub hyphen greater by hyphen_greater.liga;\012sub slash asterisk by slash_asterisk.liga;\012sub minus greater by minus_greater.liga;\012sub equal greater by equal_greater.liga;\012sub equal less by equal_less.liga;\012sub greater equal by greater_equal.liga;\012sub greater greater by greater_greater.liga;\012sub less hyphen by less_hyphen.liga;\012sub less less by less_less.liga;\012";
 name = liga;
 }
 );
@@ -82766,6 +82769,26 @@ width = 2466;
 note = equal_equal.liga;
 },
 {
+glyphname = asterisk_slash.liga;
+lastChange = "2017-05-31 16:32:45 +0000";
+layers = (
+{
+components = (
+{
+name = slash;
+transform = "{1, 0, 0, 1, 1114, 0}";
+},
+{
+name = asterisk;
+transform = "{1, 0, 0, 1, 145, -370}";
+}
+);
+layerId = "C8600398-8A20-4DEB-92AF-E95853BEE82A";
+width = 2466;
+}
+);
+},
+{
 glyphname = colon_colon.liga;
 lastChange = "2017-05-31 15:59:40 +0000";
 layers = (
@@ -82815,6 +82838,26 @@ nodes = (
 );
 }
 );
+width = 2466;
+}
+);
+},
+{
+glyphname = slash_asterisk.liga;
+lastChange = "2017-05-31 16:23:09 +0000";
+layers = (
+{
+components = (
+{
+name = slash;
+transform = "{1, 0, 0, 1, 222, 0}";
+},
+{
+name = asterisk;
+transform = "{1, 0, 0, 1, 1042, -370}";
+}
+);
+layerId = "C8600398-8A20-4DEB-92AF-E95853BEE82A";
 width = 2466;
 }
 );
