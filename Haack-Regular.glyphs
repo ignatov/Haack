@@ -27,7 +27,9 @@ v/less_hyphen.liga,
 ":/colon_colon.liga",
 "v*/slash_asterisk.liga asd",
 "v//**///slash_asterisk.liga asd",
-"asd//*asdv/asterisk_slash.liga ad"
+"asd//*asdv/asterisk_slash.liga ad",
+/asterisk_slash.liga,
+/slash_asterisk.liga
 );
 classes = (
 {
@@ -82770,17 +82772,17 @@ note = equal_equal.liga;
 },
 {
 glyphname = asterisk_slash.liga;
-lastChange = "2017-05-31 16:32:45 +0000";
+lastChange = "2017-05-31 17:05:39 +0000";
 layers = (
 {
 components = (
 {
 name = slash;
-transform = "{1, 0, 0, 1, 1114, 0}";
+transform = "{1, 0, 0, 1, 1124, 0}";
 },
 {
 name = asterisk;
-transform = "{1, 0, 0, 1, 145, -370}";
+transform = "{1, 0, 0, 1, 135, -300}";
 }
 );
 layerId = "C8600398-8A20-4DEB-92AF-E95853BEE82A";
@@ -82844,7 +82846,7 @@ width = 2466;
 },
 {
 glyphname = slash_asterisk.liga;
-lastChange = "2017-05-31 16:23:09 +0000";
+lastChange = "2017-05-31 17:05:18 +0000";
 layers = (
 {
 components = (
@@ -82854,7 +82856,7 @@ transform = "{1, 0, 0, 1, 222, 0}";
 },
 {
 name = asterisk;
-transform = "{1, 0, 0, 1, 1042, -370}";
+transform = "{1, 0, 0, 1, 1042, -300}";
 }
 );
 layerId = "C8600398-8A20-4DEB-92AF-E95853BEE82A";
