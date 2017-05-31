@@ -44,7 +44,7 @@ code = "";
 name = DevaIMatras;
 }
 );
-copyright = "Copyright (c) 2016 Christopher Simpkins / Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.";
+copyright = "Copyright (c) 2017 Sergey Ignatov / Copyright (c) 2016 Christopher Simpkins / Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.";
 customParameters = (
 {
 name = license;
@@ -1699,10 +1699,10 @@ equal_equal.liga
 );
 }
 );
-date = "2016-01-16 22:35:24 +0000";
-designer = "Christopher Simpkins";
-designerURL = "https://github.com/chrissimpkins/Hack";
-familyName = Hack;
+date = "2016-05-30 22:35:24 +0000";
+designer = "Sergey Ignatov";
+designerURL = "https://github.com/ignatov/Haack";
+familyName = "Hæck";
 featurePrefixes = (
 {
 automatic = 1;
@@ -83179,9 +83179,9 @@ instanceInterpolations = {
 name = Regular;
 }
 );
-manufacturer = "Christopher Simpkins";
-manufacturerURL = "https://github.com/chrissimpkins/Hack";
+manufacturer = "Sergey Ignatov";
+manufacturerURL = "https://github.com/ignatov/Haack";
 unitsPerEm = 2048;
-versionMajor = 2;
-versionMinor = 20;
+versionMajor = 0;
+versionMinor = 1;
 }
