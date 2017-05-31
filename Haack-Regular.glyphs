@@ -1,8 +1,9 @@
 {
 .appVersion = "983";
 DisplayStrings = (
-"=>//**//as(1..1)",
-"::/period_period.liga"
+"=>//**asd?.v()//as(1..1)",
+"::/period_period.liga",
+../question_period.liga
 );
 classes = (
 {
@@ -1724,7 +1725,7 @@ name = case;
 },
 {
 automatic = 1;
-code = "sub exclam equal by exclam_equal.liga;\012sub equal equal by equal_equal.liga;\012sub asterisk slash by asterisk_slash.liga;\012sub colon colon by colon_colon.liga;\012sub hyphen greater by hyphen_greater.liga;\012sub period period by period_period.liga;\012sub slash asterisk by slash_asterisk.liga;\012sub minus greater by minus_greater.liga;\012sub equal greater by equal_greater.liga;\012sub greater equal by greater_equal.liga;\012sub greater greater by greater_greater.liga;\012sub less hyphen by less_hyphen.liga;\012sub less equal by less_equal.liga;\012sub less less by less_less.liga;\012";
+code = "sub exclam equal by exclam_equal.liga;\012sub equal equal by equal_equal.liga;\012sub asterisk slash by asterisk_slash.liga;\012sub colon colon by colon_colon.liga;\012sub hyphen greater by hyphen_greater.liga;\012sub period period by period_period.liga;\012sub question period by question_period.liga;\012sub slash asterisk by slash_asterisk.liga;\012sub minus greater by minus_greater.liga;\012sub equal greater by equal_greater.liga;\012sub greater equal by greater_equal.liga;\012sub greater greater by greater_greater.liga;\012sub less hyphen by less_hyphen.liga;\012sub less equal by less_equal.liga;\012sub less less by less_less.liga;\012";
 name = liga;
 }
 );
@@ -82833,6 +82834,41 @@ transform = "{1, 0, 0, 1, 270, 0}";
 }
 );
 layerId = "C8600398-8A20-4DEB-92AF-E95853BEE82A";
+width = 2466;
+}
+);
+},
+{
+glyphname = question_period.liga;
+lastChange = "2017-05-31 18:27:05 +0000";
+layers = (
+{
+components = (
+{
+name = question;
+transform = "{1, 0, 0, 1, 407, 0}";
+}
+);
+layerId = "C8600398-8A20-4DEB-92AF-E95853BEE82A";
+paths = (
+{
+closed = 1;
+nodes = (
+"1751 -40 OFFCURVE",
+"1815 22 OFFCURVE",
+"1815 112 CURVE",
+"1815 202 OFFCURVE",
+"1751 264 OFFCURVE",
+"1669 264 CURVE SMOOTH",
+"1587 264 OFFCURVE",
+"1523 202 OFFCURVE",
+"1523 112 CURVE SMOOTH",
+"1523 22 OFFCURVE",
+"1587 -40 OFFCURVE",
+"1669 -40 CURVE"
+);
+}
+);
 width = 2466;
 }
 );
