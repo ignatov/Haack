@@ -1,36 +1,8 @@
 {
 .appVersion = "983";
 DisplayStrings = (
-"=>//**//asdp",
-/equal_equal.liga,
-/approxequal,
-/exclam_equal.liga,
-"->====>=>=1===!=-><-=<1",
-"1/greater_equal.liga 1",
-v/less_equal.liga,
-t/hyphen_greater.liga,
-f,
-/hyphen_greater.liga,
-v/less_hyphen.liga,
-/less_hyphen.liga,
-/less_hyphen.liga,
-/minus_greater.liga,
-">",
-11,
-"",
-"",
-/equal_greater.liga,
-/equal_greater.liga,
-"a/greater_greater.liga b",
-/greater_greater.liga,
-/less_less.liga,
-":/colon_colon.liga",
-"v*/slash_asterisk.liga asd",
-"v//**///slash_asterisk.liga asd",
-"asd//*asdv/asterisk_slash.liga ad",
-"v/asterisk_slash.liga vxcv",
-/slash_asterisk.liga,
-/asterisk_slash.liga
+"=>//**//as(1..1)",
+"::/period_period.liga"
 );
 classes = (
 {
@@ -1752,7 +1724,7 @@ name = case;
 },
 {
 automatic = 1;
-code = "sub exclam equal by exclam_equal.liga;\012sub equal equal by equal_equal.liga;\012sub asterisk slash by asterisk_slash.liga;\012sub colon colon by colon_colon.liga;\012sub hyphen greater by hyphen_greater.liga;\012sub slash asterisk by slash_asterisk.liga;\012sub minus greater by minus_greater.liga;\012sub equal greater by equal_greater.liga;\012sub greater equal by greater_equal.liga;\012sub greater greater by greater_greater.liga;\012sub less hyphen by less_hyphen.liga;\012sub less equal by less_equal.liga;\012sub less less by less_less.liga;\012";
+code = "sub exclam equal by exclam_equal.liga;\012sub equal equal by equal_equal.liga;\012sub asterisk slash by asterisk_slash.liga;\012sub colon colon by colon_colon.liga;\012sub hyphen greater by hyphen_greater.liga;\012sub period period by period_period.liga;\012sub slash asterisk by slash_asterisk.liga;\012sub minus greater by minus_greater.liga;\012sub equal greater by equal_greater.liga;\012sub greater equal by greater_equal.liga;\012sub greater greater by greater_greater.liga;\012sub less hyphen by less_hyphen.liga;\012sub less equal by less_equal.liga;\012sub less less by less_less.liga;\012";
 name = liga;
 }
 );
@@ -82841,6 +82813,26 @@ nodes = (
 );
 }
 );
+width = 2466;
+}
+);
+},
+{
+glyphname = period_period.liga;
+lastChange = "2017-05-31 18:11:46 +0000";
+layers = (
+{
+components = (
+{
+name = period;
+transform = "{1, 0, 0, 1, 970, 0}";
+},
+{
+name = period;
+transform = "{1, 0, 0, 1, 270, 0}";
+}
+);
+layerId = "C8600398-8A20-4DEB-92AF-E95853BEE82A";
 width = 2466;
 }
 );
