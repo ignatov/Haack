@@ -1,9 +1,10 @@
 {
 .appVersion = "983";
 DisplayStrings = (
-"=>//**asd?.v()//as(1..1)",
+"=>//**as?:d?.v()//as(1..1)",
 "::/period_period.liga",
-../question_period.liga
+../question_period.liga,
+v/question_colon.liga
 );
 classes = (
 {
@@ -1725,7 +1726,7 @@ name = case;
 },
 {
 automatic = 1;
-code = "sub exclam equal by exclam_equal.liga;\012sub equal equal by equal_equal.liga;\012sub asterisk slash by asterisk_slash.liga;\012sub colon colon by colon_colon.liga;\012sub hyphen greater by hyphen_greater.liga;\012sub period period by period_period.liga;\012sub question period by question_period.liga;\012sub slash asterisk by slash_asterisk.liga;\012sub minus greater by minus_greater.liga;\012sub equal greater by equal_greater.liga;\012sub greater equal by greater_equal.liga;\012sub greater greater by greater_greater.liga;\012sub less hyphen by less_hyphen.liga;\012sub less equal by less_equal.liga;\012sub less less by less_less.liga;\012";
+code = "sub exclam equal by exclam_equal.liga;\012sub equal equal by equal_equal.liga;\012sub asterisk slash by asterisk_slash.liga;\012sub colon colon by colon_colon.liga;\012sub hyphen greater by hyphen_greater.liga;\012sub period period by period_period.liga;\012sub question colon by question_colon.liga;\012sub question period by question_period.liga;\012sub slash asterisk by slash_asterisk.liga;\012sub minus greater by minus_greater.liga;\012sub equal greater by equal_greater.liga;\012sub greater equal by greater_equal.liga;\012sub greater greater by greater_greater.liga;\012sub less hyphen by less_hyphen.liga;\012sub less equal by less_equal.liga;\012sub less less by less_less.liga;\012";
 name = liga;
 }
 );
@@ -82839,14 +82840,14 @@ width = 2466;
 );
 },
 {
-glyphname = question_period.liga;
-lastChange = "2017-05-31 18:27:05 +0000";
+glyphname = question_colon.liga;
+lastChange = "2017-05-31 18:34:10 +0000";
 layers = (
 {
 components = (
 {
-name = question;
-transform = "{1, 0, 0, 1, 407, 0}";
+name = colon;
+transform = "{1, 0, 0, 1, 985, 0}";
 }
 );
 layerId = "C8600398-8A20-4DEB-92AF-E95853BEE82A";
@@ -82854,18 +82855,97 @@ paths = (
 {
 closed = 1;
 nodes = (
-"1751 -40 OFFCURVE",
-"1815 22 OFFCURVE",
-"1815 112 CURVE",
-"1815 202 OFFCURVE",
-"1751 264 OFFCURVE",
-"1669 264 CURVE SMOOTH",
-"1587 264 OFFCURVE",
-"1523 202 OFFCURVE",
-"1523 112 CURVE SMOOTH",
-"1523 22 OFFCURVE",
-"1587 -40 OFFCURVE",
-"1669 -40 CURVE"
+"989 472 LINE",
+"989 599 LINE SMOOTH",
+"989 658 OFFCURVE",
+"1003 701 OFFCURVE",
+"1096 790 CURVE SMOOTH",
+"1184 876 LINE SMOOTH",
+"1305 996 OFFCURVE",
+"1345 1070 OFFCURVE",
+"1345 1178 CURVE SMOOTH",
+"1345 1279 OFFCURVE",
+"1308 1368 OFFCURVE",
+"1236 1432 CURVE SMOOTH",
+"1167 1493 OFFCURVE",
+"1065 1528 OFFCURVE",
+"934 1528 CURVE SMOOTH",
+"864 1528 OFFCURVE",
+"799 1519 OFFCURVE",
+"739 1500 CURVE SMOOTH",
+"676 1482 OFFCURVE",
+"613 1454 OFFCURVE",
+"549 1415 CURVE",
+"549 1227 LINE",
+"684 1320 OFFCURVE",
+"794 1364 OFFCURVE",
+"905 1364 CURVE SMOOTH",
+"1049 1364 OFFCURVE",
+"1143 1283 OFFCURVE",
+"1143 1166 CURVE SMOOTH",
+"1143 1099 OFFCURVE",
+"1119 1054 OFFCURVE",
+"1034 969 CURVE SMOOTH",
+"944 880 LINE SMOOTH",
+"835 771 OFFCURVE",
+"799 688 OFFCURVE",
+"799 583 CURVE SMOOTH",
+"799 472 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"989 60 OFFCURVE",
+"1061 129 OFFCURVE",
+"1061 230 CURVE SMOOTH",
+"1061 329 OFFCURVE",
+"991 398 OFFCURVE",
+"899 398 CURVE SMOOTH",
+"851 398 OFFCURVE",
+"811 379 OFFCURVE",
+"784 351 CURVE SMOOTH",
+"753 319 OFFCURVE",
+"737 280 OFFCURVE",
+"737 230 CURVE SMOOTH",
+"737 129 OFFCURVE",
+"808 60 OFFCURVE",
+"900 60 CURVE SMOOTH"
+);
+}
+);
+width = 2466;
+}
+);
+},
+{
+glyphname = question_period.liga;
+lastChange = "2017-05-31 18:35:13 +0000";
+layers = (
+{
+components = (
+{
+name = question;
+transform = "{1, 0, 0, 1, 389, 0}";
+}
+);
+layerId = "C8600398-8A20-4DEB-92AF-E95853BEE82A";
+paths = (
+{
+closed = 1;
+nodes = (
+"1769 -40 OFFCURVE",
+"1833 22 OFFCURVE",
+"1833 112 CURVE",
+"1833 202 OFFCURVE",
+"1769 264 OFFCURVE",
+"1687 264 CURVE SMOOTH",
+"1605 264 OFFCURVE",
+"1541 202 OFFCURVE",
+"1541 112 CURVE SMOOTH",
+"1541 22 OFFCURVE",
+"1605 -40 OFFCURVE",
+"1687 -40 CURVE"
 );
 }
 );
