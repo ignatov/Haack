@@ -5,7 +5,7 @@ DisplayStrings = (
 "::/period_period.liga ...",
 ../question_period.liga,
 v/question_colon.liga,
-../period_period_period.liga
+"...?.?:"
 );
 classes = (
 {
@@ -1727,7 +1727,7 @@ name = case;
 },
 {
 automatic = 1;
-code = "sub exclam equal by exclam_equal.liga;\012sub equal equal by equal_equal.liga;\012sub asterisk slash by asterisk_slash.liga;\012sub colon colon by colon_colon.liga;\012sub hyphen greater by hyphen_greater.liga;\012sub period period by period_period.liga;\012sub period period period by period_period_period.liga;\012sub question colon by question_colon.liga;\012sub question period by question_period.liga;\012sub slash asterisk by slash_asterisk.liga;\012sub bar bar by bar_bar.liga;\012sub minus greater by minus_greater.liga;\012sub equal greater by equal_greater.liga;\012sub greater equal by greater_equal.liga;\012sub greater greater by greater_greater.liga;\012sub less hyphen by less_hyphen.liga;\012sub less equal by less_equal.liga;\012sub less less by less_less.liga;\012";
+code = "sub exclam equal by exclam_equal.liga;\012sub equal equal by equal_equal.liga;\012sub colon colon by colon_colon.liga;\012sub hyphen greater by hyphen_greater.liga;\012sub period period by period_period.liga;\012sub period period period by period_period_period.liga;\012sub question colon by question_colon.liga;\012sub question period by question_period.liga;\012sub bar bar by bar_bar.liga;\012sub minus greater by minus_greater.liga;\012sub equal greater by equal_greater.liga;\012sub greater equal by greater_equal.liga;\012sub greater greater by greater_greater.liga;\012sub less hyphen by less_hyphen.liga;\012sub less equal by less_equal.liga;\012sub less less by less_less.liga;\012";
 name = liga;
 }
 );
@@ -82747,8 +82747,8 @@ width = 2466;
 note = equal_equal.liga;
 },
 {
-glyphname = asterisk_slash.liga;
-lastChange = "2017-05-31 17:16:34 +0000";
+glyphname = asterisk_slash.liga_;
+lastChange = "2017-06-01 13:32:56 +0000";
 layers = (
 {
 components = (
@@ -82759,6 +82759,26 @@ transform = "{1, 0, 0, 1, 1124, 0}";
 {
 name = asterisk;
 transform = "{1, 0, 0, 1, 135, -200}";
+}
+);
+layerId = "C8600398-8A20-4DEB-92AF-E95853BEE82A";
+width = 2466;
+}
+);
+},
+{
+glyphname = slash_asterisk.liga_;
+lastChange = "2017-06-01 13:33:01 +0000";
+layers = (
+{
+components = (
+{
+name = slash;
+transform = "{1, 0, 0, 1, 222, 0}";
+},
+{
+name = asterisk;
+transform = "{1, 0, 0, 1, 1042, -200}";
 }
 );
 layerId = "C8600398-8A20-4DEB-92AF-E95853BEE82A";
@@ -82822,7 +82842,7 @@ width = 2466;
 },
 {
 glyphname = period_period.liga;
-lastChange = "2017-05-31 18:11:46 +0000";
+lastChange = "2017-06-01 12:32:33 +0000";
 layers = (
 {
 components = (
@@ -82842,7 +82862,7 @@ width = 2466;
 },
 {
 glyphname = period_period_period.liga;
-lastChange = "2017-06-01 09:37:36 +0000";
+lastChange = "2017-06-01 12:32:33 +0000";
 layers = (
 {
 components = (
@@ -82866,7 +82886,7 @@ width = 3699;
 },
 {
 glyphname = question_colon.liga;
-lastChange = "2017-06-01 09:19:56 +0000";
+lastChange = "2017-06-01 12:33:26 +0000";
 layers = (
 {
 components = (
@@ -82945,7 +82965,7 @@ width = 2466;
 },
 {
 glyphname = question_period.liga;
-lastChange = "2017-05-31 18:35:13 +0000";
+lastChange = "2017-06-01 12:33:22 +0000";
 layers = (
 {
 components = (
@@ -82974,26 +82994,6 @@ nodes = (
 );
 }
 );
-width = 2466;
-}
-);
-},
-{
-glyphname = slash_asterisk.liga;
-lastChange = "2017-05-31 17:16:34 +0000";
-layers = (
-{
-components = (
-{
-name = slash;
-transform = "{1, 0, 0, 1, 222, 0}";
-},
-{
-name = asterisk;
-transform = "{1, 0, 0, 1, 1042, -200}";
-}
-);
-layerId = "C8600398-8A20-4DEB-92AF-E95853BEE82A";
 width = 2466;
 }
 );
