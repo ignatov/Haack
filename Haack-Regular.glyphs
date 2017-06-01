@@ -1,13 +1,11 @@
 {
 .appVersion = "983";
 DisplayStrings = (
-"|=>1 || 1&&as?:d?.v()//as(1 >> 1)",
-"::/period_period.liga",
+"1...1, 1..1",
+"::/period_period.liga ...",
 ../question_period.liga,
 v/question_colon.liga,
-"a/bar_bar.liga av",
-"cd /greater_greater.liga  ad",
-/less_less.liga
+../period_period_period.liga
 );
 classes = (
 {
@@ -1729,7 +1727,7 @@ name = case;
 },
 {
 automatic = 1;
-code = "sub exclam equal by exclam_equal.liga;\012sub equal equal by equal_equal.liga;\012sub asterisk slash by asterisk_slash.liga;\012sub colon colon by colon_colon.liga;\012sub hyphen greater by hyphen_greater.liga;\012sub period period by period_period.liga;\012sub question colon by question_colon.liga;\012sub question period by question_period.liga;\012sub slash asterisk by slash_asterisk.liga;\012sub bar bar by bar_bar.liga;\012sub minus greater by minus_greater.liga;\012sub equal greater by equal_greater.liga;\012sub greater equal by greater_equal.liga;\012sub greater greater by greater_greater.liga;\012sub less hyphen by less_hyphen.liga;\012sub less equal by less_equal.liga;\012sub less less by less_less.liga;\012";
+code = "sub exclam equal by exclam_equal.liga;\012sub equal equal by equal_equal.liga;\012sub asterisk slash by asterisk_slash.liga;\012sub colon colon by colon_colon.liga;\012sub hyphen greater by hyphen_greater.liga;\012sub period period by period_period.liga;\012sub period period period by period_period_period.liga;\012sub question colon by question_colon.liga;\012sub question period by question_period.liga;\012sub slash asterisk by slash_asterisk.liga;\012sub bar bar by bar_bar.liga;\012sub minus greater by minus_greater.liga;\012sub equal greater by equal_greater.liga;\012sub greater equal by greater_equal.liga;\012sub greater greater by greater_greater.liga;\012sub less hyphen by less_hyphen.liga;\012sub less equal by less_equal.liga;\012sub less less by less_less.liga;\012";
 name = liga;
 }
 );
@@ -82839,6 +82837,30 @@ transform = "{1, 0, 0, 1, 270, 0}";
 );
 layerId = "C8600398-8A20-4DEB-92AF-E95853BEE82A";
 width = 2466;
+}
+);
+},
+{
+glyphname = period_period_period.liga;
+lastChange = "2017-06-01 09:37:36 +0000";
+layers = (
+{
+components = (
+{
+name = period;
+transform = "{1, 0, 0, 1, 1237, 0}";
+},
+{
+name = period;
+transform = "{1, 0, 0, 1, 1937, 0}";
+},
+{
+name = period;
+transform = "{1, 0, 0, 1, 537, 0}";
+}
+);
+layerId = "C8600398-8A20-4DEB-92AF-E95853BEE82A";
+width = 3699;
 }
 );
 },
