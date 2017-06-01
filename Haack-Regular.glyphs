@@ -5,7 +5,8 @@ DisplayStrings = (
 "::/period_period.liga ...",
 ../question_period.liga,
 v/question_colon.liga,
-"...?.?:"
+"...?.?:",
+"v|/bar_bar.liga rrv"
 );
 classes = (
 {
@@ -83000,17 +83001,17 @@ width = 2466;
 },
 {
 glyphname = bar_bar.liga;
-lastChange = "2017-06-01 09:06:29 +0000";
+lastChange = "2017-06-01 13:39:12 +0000";
 layers = (
 {
 components = (
 {
 name = bar;
-transform = "{1, 0, 0, 1, 1010, 0}";
+transform = "{1, 0, 0, 1, 1024, 0}";
 },
 {
 name = bar;
-transform = "{1, 0, 0, 1, 225, 0}";
+transform = "{1, 0, 0, 1, 210, 0}";
 }
 );
 layerId = "C8600398-8A20-4DEB-92AF-E95853BEE82A";
