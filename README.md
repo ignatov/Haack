@@ -1,6 +1,6 @@
 # Hæck
 
-Hæck is a Hack fork with programming ligatures.
+Hæck is the [Hack](http://sourcefoundry.org/hack/) fork with programming ligatures.
 
 [Download v0.1](https://github.com/ignatov/Haack/releases/download/0.1/Haeck-Regular.ttf).
 
