@@ -12,7 +12,7 @@ Hæck is the [Hack](http://sourcefoundry.org/hack/) fork with programming ligatu
 #### Kotlin
 <img src="./images/kotlin.png" />
 
-### Go
+#### Go
 <img src="./images/go.png" />
 
 #### Erlang
